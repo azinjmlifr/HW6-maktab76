@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main_box {
+  width: 700px;
+  height: 550px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 500px;
+  background-color: white;
+  border: 3px solid #f1f1f1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  border-radius: 40px;
+}
+.head {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 0px;
+  text-align: center;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzrtaXGkXhkLIV4Du-Lg0JPJ5I84RQb8RvIA&usqp=CAU);
+  /* border: 1px solid #ccc; */
+  /* box-sizing: border-box; */
+}
+h1 {
+  color: white;
+}
+
+/* input[type="text"],
+input[type="password"]  */
+.form {
+  border-radius: 40px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px;
+  /* border: 1px solid #ccc; */
+  /* box-sizing: border-box; */
+  display: flex;
+  flex-flow: column;
+}
+input[type="text"],
+input[type="password"] {
+  width: 70%;
+  margin-left: 100px;
+  margin-top: -20px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+}
+.label {
+  margin-top: 20px;
+}
+#remembr {
+  margin-left: 50px;
+}
+#forget {
+  align-items: flex-start;
+  margin-left: 100px;
+}
+
+#button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 10px 60px;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 30%;
+}
+span.psw {
+  padding-top: 16px;
+}
+.rest {
+  display: flex;
+  align-items: flex-end;
+}
